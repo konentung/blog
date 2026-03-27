@@ -1,0 +1,70 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-tw'
+defaultContentLanguage = 'zh-tw'
+title = 'Konen Blog'
+theme = 'hugo-theme-drift'
+
+[pagination]
+  pagerSize = 6
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+
+[params]
+  description = "Konen 的個人部落格，分享技術、專案與生活筆記。"
+  author = "Konen Tung"
+  heroTitle = "Hello, I'm Konen"
+  heroSubtitle = "A developer who loves building things for the web."
+  footerText = "Built with Hugo & hugo-theme-drift."
+  siteStartYear = 2025
+  # avatar = "/img/avatar.jpg"
+  showTableOfContents = true
+  showShareButtons = true
+  # utterancesRepo = "konentung/blog-comments"
+
+[params.social]
+  github = "https://github.com/konentung"
+  twitter = "https://x.com/Konentung"
+  youtube = "https://www.youtube.com/@%E9%9B%99%E5%88%80%E7%9A%84%E5%BB%A2%E7%96%BE%E8%80%85"
+  email = "mailto:konen93@gmail.com"
+  instagram = "https://www.instagram.com/hercules._.o7l6/"
+  facebook = "https://www.facebook.com/Konentung"
+  threads = "https://www.threads.com/@hercules._.o7l6/"
+  linkedin = "https://www.linkedin.com/in/konentung/"
+  stackoverflow = "https://stackoverflow.com/users/23608210/konentung?tab=profile"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 4
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 5
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = false
+    noClasses = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false

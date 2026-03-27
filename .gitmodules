@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-drift"]
+	path = themes/hugo-theme-drift
+	url = https://github.com/konentung/hugo-theme-drift.git
