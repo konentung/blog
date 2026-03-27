@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://konentung.github.io/'
 languageCode = 'zh-tw'
 defaultContentLanguage = 'zh-tw'
 title = 'Konen Blog'
