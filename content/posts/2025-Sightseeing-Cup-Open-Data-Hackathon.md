@@ -21,7 +21,7 @@ draft: false
 
 2025 觀光盃 Open Data 黑客松由交通部觀光署主辦，旨在透過開放資料與數位創新，促進台灣觀光業的數位轉型與升級。我與團隊 **Tourgether** 參賽後入圍決賽，最終以作品 **「Next Stop 智慧旅遊」** 獲得 **大專院校組佳作** 的肯定。
 
-![2025觀光盃Open Data黑客松 佳作獎狀](/img/2025-sightseeing-cup/certificate.png)
+![2025觀光盃Open Data黑客松 佳作獎狀](https://hackmd.io/_uploads/ByYSVOZO-l.png)
 
 ---
 
